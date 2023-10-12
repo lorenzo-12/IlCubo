@@ -1,0 +1,274 @@
+
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    margin: 0; 
+}
+
+                                                            /* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("/svg/header_background.svg");
+    width: 100%;
+    height: 80px;
+}
+
+#logo{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+                                                            /* FORM */
+
+.form{
+    background-image: url("images/form_img.jpg");
+    background-size: 100% 600px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+
+.form_left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_left_top{
+    height: 250px;
+}
+
+.form_left_bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #10355e;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 350px;
+    width: 95%;
+}
+
+.form_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    height: 80%;
+    width: 90%;
+}
+
+.form-group{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#form_button{
+    width: 45%;
+    background-color: #6bb836;
+}
+
+#form_email{
+    width: 59%;
+}
+
+#form_telephone{
+    width: 40%;
+    margin-left: 1%;
+}
+
+                                                            /* FEEDBACK */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    width: 100%;
+    height: 200px;
+}
+
+.trustpilot{
+    width: 60px;
+    height: 20px;
+}
+
+#trustpilot_logo{
+    width: 100%;
+    height: 100%;
+}
+
+#about_us_img{
+    width: 40%;
+    height: 50%;
+}
+
+.employees{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e4;
+    width: 100%;
+    height: 250px;
+}
+
+.employee_structure{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 150px;
+    height: 175px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.employee_structure_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;    
+}
+
+.employee_img{
+    background-color: #bebebe;
+    background-size: 70px 70px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.employee_structure_name{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.review{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+                                                            /* INFORMATION */
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+#adresses{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.social_link{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#ig_logo, #fb_logo, #tiktok_logo{
+    width: 100%;
+    height: 100%;
+}
+
+#information_logo{
+    width: 130px;
+    height: 100px;
+}
+
+                                                            /* COMMON SVG STYLE */
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.star_green{
+    background-image: url("svg/star_green.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.star_grey{
+    background-image: url("svg/star_grey.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.a{
+    background-color: #10355e;
+    width: 100px;
+    height: 100px;
+}
+
+.b{
+    background-color: #549ac6;
+    width: 100px;
+    height: 100px;
+}
+
+.c{
+    background-color: #112035;
+    width: 100px;
+    height: 100px;
+}
+
+.d{
+    background-color: #0d1522;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
