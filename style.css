@@ -19,20 +19,19 @@ html, body {
 }
 
 #logo{
-    border-radius: 100px;
-    width: 130px;
-    height: 100px;
+    border-radius: 200px;
+    transform: scale(0.25);
 }
 
                                                             /* FORM */
 
 .form{
-    background-image: url("images/form_10355e.jpeg");
+    background-image: url("images/form.jpg");
     background-size: 100% 600px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 .form_left{
@@ -60,14 +59,14 @@ html, body {
     background-color: #10355e;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    height: 350px;
+    height: 400px;
     width: 95%;
 }
 
 .form_info{
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 7%;
     height: 80%;
     width: 90%;
 }
@@ -90,7 +89,7 @@ html, body {
 
 #form_button{
     width: 45%;
-    background-color: #6bb836;
+    background-color: #549AC6;
 }
 
 #form_email{
@@ -109,9 +108,7 @@ html, body {
     flex-direction: column;
     background-color: #efefef;
     width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
+    height: 500px;
 }
 
 .about_us{
@@ -136,8 +133,8 @@ html, body {
 }
 
 #about_us_img{
-    width: 40%;
-    height: 50%;
+    width: 620px;
+    height: 120px;
 }
 
 .employees{
@@ -147,7 +144,7 @@ html, body {
     align-items: stretch;
     background-color: #e2e2e4;
     width: 100%;
-    height: 250px;
+    height: 300px;
 }
 
 .employee_structure{
@@ -156,7 +153,7 @@ html, body {
     background-color: white;
     margin: 10px;
     width: 250px;
-    height: auto;
+    height: 275px;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 5px;
@@ -177,13 +174,14 @@ html, body {
 }
 
 .employee_structure_name{
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .review{
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
                                                             /* INFORMATION */
@@ -224,12 +222,18 @@ html, body {
 
                                                             /* COMMON SVG STYLE */
 
+.stars_about_us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .stars{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .star_green{
