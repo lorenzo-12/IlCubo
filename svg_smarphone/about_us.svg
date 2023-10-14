@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="120" viewBox="0 0 350 120">
+  <defs>
+    <filter id="Parlano_di_noi" x="23" y="0" width="304" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Parlano_di_noi)">
+    <text id="Parlano_di_noi-2" data-name="Parlano di noi" transform="translate(32 57)" fill="#132036" font-size="50" font-family="Degular-Black, Degular" font-weight="800"><tspan x="0" y="0">Parlano di noi</tspan></text>
+  </g>
+  <text id="Ogni_studente_è_differente_per_questo_definiamo_un_percorso_didattico_personalizzato_per_ogni_esigenza_con_metodo_passione_ed_organizzazione." data-name="Ogni studente è differente, per questo definiamo un percorso didattico personalizzato per ogni esigenza, con metodo, passione ed organizzazione." transform="translate(0 72)" fill="#132036" font-size="12" font-family="Degular-Regular, Degular"><tspan x="20" y="12">Ogni studente è differente, per questo </tspan><tspan y="12" font-family="Degular-Bold, Degular" font-weight="700">definiamo un percorso </tspan><tspan x="0" y="28" font-family="Degular-Bold, Degular" font-weight="700">didattico personalizzato</tspan><tspan y="28" xml:space="preserve"> per ogni esigenza, con metodo, passione ed </tspan><tspan x="140" y="44">organizzazione.</tspan></text>
+</svg>

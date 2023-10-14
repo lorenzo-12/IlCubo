@@ -1,8 +1,11 @@
 
+
 html, body { 
     height: 100%; 
     width: 100%; 
     margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
 }
 
                                                             /* HEADER */
@@ -12,45 +15,58 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-image: url("/svg/header_background.svg");
+    color: black;
+    background-image: url("svg_smarphone/header.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 80px;
+    height: 10%;
 }
 
 #logo{
+    display: none;
     border-radius: 200px;
     transform: scale(0.25);
+}
+
+.header_text{
+    display: none;
 }
 
                                                             /* FORM */
 
 .form{
-    background-image: url("images/form.jpg");
-    background-size: 100% 600px;
+    background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 650px;
+    height: 160%;
 }
 
 .form_left{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 85%;
     display: flex;
     flex-direction: column;
 }
 
 .form_right{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-image: url("svg_smarphone/from_bottom.svg");
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
 }
 
 .form_left_top{
-    height: 250px;
+    height: 40%;
+    background-image: url("svg_smarphone/form_top.svg");
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
 }
 
 .form_left_bottom{
@@ -59,72 +75,80 @@ html, body {
     background-color: #10355e;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    height: 400px;
-    width: 95%;
+    height: 60%;
+    width: 100%;
 }
 
 .form_info{
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
+    margin-top: 10%;
     height: 80%;
     width: 90%;
 }
 
 .form-group{
-    margin-top: 1%;
-    margin-bottom: 1%;
     width: 100%;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
 .form-group-2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    margin-top: 1%;
-    margin-bottom: 1%;
 }
 
 #form_button{
-    width: 45%;
+    width: 100%;
+    margin-top: 10%;
     background-color: #549AC6;
+    font-weight: bold;
 }
 
 #form_email{
-    width: 59%;
+    width: 100%;
 }
 
 #form_telephone{
-    width: 40%;
-    margin-left: 1%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
                                                             /* FEEDBACK */
 
 .feedback{
     display: flex;
     flex-direction: column;
-    background-color: #efefef;
+    background-color: white;
     width: 100%;
-    height: 500px;
+    height: 80%;
 }
 
 .about_us{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    background-color: #efefef;
+    background-color: white;
     width: 100%;
-    height: 200px;
+    height: 40%;
+    background-image: url("svg_smarphone/about_us.svg");
+    background-repeat: no-repeat;
+    background-size: 90% 50%;
+    margin-left: 5%;
 }
 
 .google{
-    margin-top: 5px;
-    width: 80px;
-    height: 30px;
+    background-color: white;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-left: -10%;
+    width: 20%;
+    height: 10%;
 }
 
 #google_logo{
@@ -133,27 +157,28 @@ html, body {
 }
 
 #about_us_img{
-    width: 620px;
-    height: 120px;
+    display: none;
 }
 
 .employees{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    background-color: #e2e2e4;
+    align-items: center;
+    background-color: #DEE6DE;
     width: 100%;
-    height: 300px;
+    height: 60%;
+    overflow: scroll;
+    direction: ltr;
 }
 
 .employee_structure{
     display: flex;
     flex-direction: column;
     background-color: white;
+    flex-shrink: 0;
     margin: 10px;
     width: 250px;
-    height: 275px;
+    height: 300px;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 5px;
@@ -184,6 +209,7 @@ html, body {
     margin-right: 10px;
 }
 
+
                                                             /* INFORMATION */
 
 .information{
@@ -193,12 +219,12 @@ html, body {
     align-items: center;
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 15%;
 }
 
 #information_logo{
     border-radius: 50%;
-    width: 130px;
+    width: 163px;
     height: 100%;
 }
 
@@ -219,6 +245,7 @@ html, body {
     width: 100%;
     height: 70%;
 }
+                                                            
 
 
                                                             /* COMMON SVG STYLE */
@@ -227,6 +254,7 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: -10%;
 }
 
 .stars{
@@ -264,9 +292,7 @@ html, body {
     width: 20px;
     height: 20px;
 }
-
-
-
+                                                            
 
 
 

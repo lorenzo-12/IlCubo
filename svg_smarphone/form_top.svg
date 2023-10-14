@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 195">
+  <defs>
+    <filter id="Prenota_la_tua_ora_di_prova_senza_impegno" x="0" y="0" width="360" height="184" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Tracciato_91" data-name="Tracciato 91" d="M-8.36,16.789l180-5.039V39.126l-180,5.039Z" transform="translate(9.36 21.704)" fill="#549ac6"/>
+  <path id="Tracciato_92" data-name="Tracciato 92" d="M-8.36,16.789l330-5.039V39.126l-330,5.039Z" transform="translate(9.36 122.704)" fill="#549ac6"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Prenota_la_tua_ora_di_prova_senza_impegno)">
+    <text id="Prenota_la_tua_ora_di_prova_senza_impegno-2" data-name="Prenota la tua
+ora di prova 
+senza impegno" transform="translate(9 6)" fill="#132036" font-size="50" font-family="Degular-Black, Degular" font-weight="800"><tspan x="0" y="51">Prenota la tua</tspan><tspan x="0" y="101">ora di prova </tspan><tspan x="0" y="151">senza impegno</tspan></text>
+  </g>
+  <text id="Ripetizioni_private_comodamente_a_casa_tua_" data-name="Ripetizioni private comodamente a casa tua! " transform="translate(1 190)" fill="#132036" font-size="18" font-family="Degular-Medium, Degular" font-weight="500"><tspan x="0" y="0">Ripetizioni private comodamente a casa tua! </tspan></text>
+</svg>

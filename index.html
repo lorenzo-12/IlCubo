@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <link id="scriptCSS" rel="stylesheet" type="text/css" href="style_smartphone.css" />
+    <script src="index.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>il cubo web page</title>
@@ -13,15 +14,16 @@
         colore verde chiaro background: #f4fbf4
 
     -->
+
 </head>
-<body>
+<body onload="css_file();">
 
     <div class="header">
-        <div style="margin-right: 20px;">
+        <div class="header_text" style="margin-right: 20px;">
             Corsi, lezioni e ripetizioni
         </div>
         <img id="logo" src="images/il-cubo-logo-r.jpeg">
-        <div style="margin-left: 20px;">
+        <div class="header_text" style="margin-left: 20px;">
             Direttamente a casa tua
         </div>
     </div>
@@ -70,7 +72,7 @@
             </div>
         </div>
         <div class="employees">
-            <div class="employee_structure">
+            <div id="emp_1" class="employee_structure">
                 <div class="employee_structure_img">
                     <img class="employee_img" >
                 </div>
@@ -88,7 +90,7 @@
                     Abbiamo frequento molti corsi con loro e sono stati sempre bravi, puntuali e non appena c’era un problema veniva sempre prontamente risolto Bravi!
                 </div>
             </div>
-            <div class="employee_structure">
+            <div id="emp_2" class="employee_structure">
                 <div class="employee_structure_img">
                     <img class="employee_img" >
                 </div>
@@ -103,10 +105,10 @@
                     <div class="star_yellow_google"></div>
                 </div>
                 <div class="review">
-                    Personale disponibile, preciso e cordiale. Tutor preparati, disponibili con le esigenze dei ragazzi e cordiali. Consigliato!
+                    Personale disponibile, preciso e cordiale. Tutor preparati, disponibili con le esigenze dei ragazzi e cordiali. Consigliato!
                 </div>
             </div>
-            <div class="employee_structure">
+            <div id="emp_3" class="employee_structure">
                 <div class="employee_structure_img">
                     <img class="employee_img" >
                 </div>
@@ -121,7 +123,7 @@
                     <div class="star_grey_google"></div>
                 </div>
                 <div class="review">
-                    Siamo pienamente soddisfatti. Anche quando si è reso necessario trovare un sostituto, ci è stata prontamente assegnata una nuova persona competente e valida. Ottimo servizio
+                    Siamo pienamente soddisfatti. Anche quando si è reso necessario trovare un sostituto, ci è stata prontamente assegnata una nuova persona competente e valida. Ottimo servizio
                 </div>
             </div>
         </div>
@@ -140,17 +142,19 @@
                 PIVA 08966620968
             </div>
         </div>
-        <!--<div class="social_link">
-            <img id="ig_logo" src="svg/ig_logo.svg">
-        </div>
         <div class="social_link">
-            <img id="fb_logo" src="svg/fb_logo.svg">
+            <div class="social_link_logo">
+                <img id="ig_logo" src="svg/ig_logo.svg">
+            </div>
+            <div class="social_link_logo">
+                <img id="fb_logo" src="svg/fb_logo.svg">
+            </div>
+            <div class="social_link_logo">
+                <img id="tiktok_logo" src="svg/tiktok_logo.svg">
+            </div>
         </div>
-        <div class="social_link">
-            <img id="tiktok_logo" src="svg/tiktok_logo.svg">
-        </div>!-->
+        
     </div>
-
 </body>
 </html>
 
