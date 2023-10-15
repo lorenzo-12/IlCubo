@@ -1,0 +1,296 @@
+
+
+html, body { 
+    height: 100%; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+
+                                                            /* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 13%;
+    background-image: url("svg_tablet/header.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+
+#logo{
+    display: none;
+    border-radius: 200px;
+    transform: scale(0.25);
+}
+
+.header_text{
+    display: none;
+}
+
+                                                            /* FORM */
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 160%;
+}
+
+.form_left{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_right{
+    width: 100%;
+    height: 60%;
+    margin-top: 2%;
+    background-image: url("svg_smarphone/from_bottom.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.form_left_top{
+    height: 40%;
+    background-image: url("svg_smarphone/form_top.svg");
+    background-repeat: no-repeat;
+    margin: 5%;
+}
+
+.form_left_bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #10355e;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 60%;
+    width: 100%;
+}
+
+.form_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    height: 80%;
+    width: 90%;
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#form_button{
+    width: 100%;
+    margin-top: 10%;
+    background-color: #549AC6;
+    font-weight: bold;
+}
+
+#form_email{
+    width: 100%;
+}
+
+#form_telephone{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+                                                            /* FEEDBACK */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 80%;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    background-image: url("svg_smarphone/about_us.svg");
+    background-repeat: no-repeat;
+    background-size: 90% 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.google{
+    background-color: white;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: -10%;
+    width: 20%;
+    height: 15%;
+}
+
+#google_logo{
+    width: 100%;
+    height: 100%;
+}
+
+#about_us_img{
+    display: none;
+}
+
+.employees{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #DEE6DE;
+    width: 100%;
+    height: 60%;
+    overflow: scroll;
+    direction: ltr;
+}
+
+.employee_structure{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-shrink: 0;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.employee_structure_img{
+    display: none;
+    justify-content: center;
+    margin-top: 10px;    
+}
+
+.employee_img{
+    background-color: #bebebe;
+    background-size: 70px 70px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.employee_structure_name{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.review{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+                                                            /* INFORMATION */
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 15%;
+}
+
+#information_logo{
+    border-radius: 50%;
+    width: 163px;
+    height: 100%;
+}
+
+#adresses{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.social_link{
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#ig_logo, #fb_logo, #tiktok_logo{
+    width: 100%;
+    height: 70%;
+}
+                                                            
+
+
+                                                            /* COMMON SVG STYLE */
+
+.stars_about_us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -10%;
+    transform: scale(2);
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.star_green{
+    background-image: url("svg/star_green.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.star_grey{
+    background-image: url("svg/star_grey.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.star_yellow_google{
+    background-image: url("svg/star_yellow_google.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.star_grey_google{
+    background-image: url("svg/star_grey_google.svg");
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+}
+                                                            
+
+
+
