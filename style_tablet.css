@@ -78,14 +78,14 @@ html, body {
 .form_info{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
     height: 80%;
     width: 90%;
 }
 
 .form-group{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
 }
@@ -98,7 +98,6 @@ html, body {
 
 #form_button{
     width: 100%;
-    margin-top: 10%;
     background-color: #549AC6;
     font-weight: bold;
 }
@@ -109,10 +108,13 @@ html, body {
 
 #form_telephone{
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
+.label_text{
+    color: white;
+}
 
                                                             /* FEEDBACK */
 
