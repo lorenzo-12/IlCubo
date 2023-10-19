@@ -1,5 +1,4 @@
 
-
 html, body { 
     height: 100%; 
     width: 100%; 
@@ -17,7 +16,7 @@ html, body {
     align-items: center;
     color: black;
     background-image: url("svg_smarphone/header.svg");
-    background-size: 100% 100%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
     height: 10%;
@@ -40,12 +39,12 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 160%;
+    height: 190%;
 }
 
 .form_left{
     width: 100%;
-    height: 85%;
+    height: 115%;
     display: flex;
     flex-direction: column;
 }
@@ -56,14 +55,16 @@ html, body {
     margin-left: 5%;
     margin-top: 10%;
     background-image: url("svg_smarphone/from_bottom.svg");
-    background-size: 100% 90%;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .form_left_top{
-    height: 40%;
+    height: 30%;
+    width: 90%;
     background-image: url("svg_smarphone/form_top.svg");
     background-repeat: no-repeat;
+    background-size: 100% auto;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
@@ -82,7 +83,7 @@ html, body {
 .form_info{
     display: flex;
     flex-direction: column;
-    margin-top: 3%;
+    margin-top: 8%;
     height: 80%;
     width: 90%;
 }
@@ -102,7 +103,6 @@ html, body {
 
 #form_button{
     width: 100%;
-    margin-top: 2%;
     background-color: #549AC6;
     font-weight: bold;
 }
@@ -119,9 +119,15 @@ html, body {
 
 .label_text{
     color: white;
-    font-size: 10px;
+    font-size: 8px;
 }
 
+.form-control{
+    height: 2em;
+    font-family: "degular",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 
                                                             /* FEEDBACK */
 
@@ -143,7 +149,7 @@ html, body {
     height: 40%;
     background-image: url("svg_smarphone/about_us.svg");
     background-repeat: no-repeat;
-    background-size: 90% 50%;
+    background-size: 90% auto;
     margin-left: 5%;
 }
 
@@ -153,7 +159,7 @@ html, body {
     margin-top: 3%;
     margin-left: -10%;
     width: 20%;
-    height: 10%;
+    height: auto;
 }
 
 #google_logo{
@@ -171,7 +177,7 @@ html, body {
     align-items: center;
     background-color: #DEE6DE;
     width: 100%;
-    height: 60%;
+    height: 65%;
     overflow: scroll;
     direction: ltr;
 }
@@ -229,7 +235,7 @@ html, body {
 
 #information_logo{
     border-radius: 50%;
-    width: 163px;
+    width: auto;
     height: 100%;
 }
 
@@ -247,8 +253,8 @@ html, body {
 }
 
 #ig_logo, #fb_logo, #tiktok_logo{
-    width: 100%;
-    height: 70%;
+    width: auto;
+    height: auto;
 }
                                                             
 

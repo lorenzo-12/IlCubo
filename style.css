@@ -2,7 +2,9 @@
 html, body { 
     height: 100%; 
     width: 100%; 
-    margin: 0; 
+    margin: 0;
+    background-image: url("images/test.jpg");
+    background-size: 100% auto;
 }
 
                                                             /* HEADER */
@@ -14,6 +16,7 @@ html, body {
     align-items: center;
     color: white;
     background-image: url("svg/header_background.svg");
+    background-repeat: no-repeat;
     width: 100%;
     height: 80px;
 }
@@ -27,11 +30,12 @@ html, body {
 
 .form{
     background-image: url("images/form.jpg");
-    background-size: 100% 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 650px;
+    height: 85%;
 }
 
 .form_left{
@@ -50,7 +54,7 @@ html, body {
 }
 
 .form_left_top{
-    height: 250px;
+    height: 40%;
 }
 
 .form_left_bottom{
@@ -59,7 +63,7 @@ html, body {
     background-color: #10355e;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    height: 400px;
+    height: 60%;
     width: 95%;
 }
 
