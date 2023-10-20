@@ -50,11 +50,11 @@ html, body {
 }
 
 .form_right{
-    width: 90%;
+    width: 100%;
     height: 60%;
-    margin-left: 5%;
     margin-top: 10%;
-    background-image: url("svg_smarphone/from_bottom.svg");
+    /*background-image: url("svg_smarphone/from_bottom.svg");*/
+    background-image: url("images/form_bottom.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -62,7 +62,8 @@ html, body {
 .form_left_top{
     height: 30%;
     width: 90%;
-    background-image: url("svg_smarphone/form_top.svg");
+    /*background-image: url("svg_smarphone/form_top.svg");*/
+    background-image: url("images/form_top.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin-left: 5%;
@@ -147,17 +148,19 @@ html, body {
     background-color: white;
     width: 100%;
     height: 40%;
-    background-image: url("svg_smarphone/about_us.svg");
+    /*background-image: url("svg_smarphone/about_us.svg");*/
+    background-image: url("images/about_us.jpg");
     background-repeat: no-repeat;
-    background-size: 90% auto;
-    margin-left: 5%;
+    background-size: 100% auto;
+    background-position: center top;
 }
 
 .google{
+    display: none;
     background-color: white;
     margin-bottom: 10%;
     margin-top: 3%;
-    margin-left: -10%;
+    margin-left: 0%;
     width: 20%;
     height: auto;
 }
@@ -262,10 +265,10 @@ html, body {
                                                             /* COMMON SVG STYLE */
 
 .stars_about_us{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
-    margin-left: -10%;
+    margin-left: -0%;
 }
 
 .stars{
