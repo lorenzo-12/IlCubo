@@ -170,7 +170,7 @@
         /*background-image: url("svg_smarphone/about_us.svg");*/
         background-image: url("images/about_us.jpg");
         background-repeat: no-repeat;
-        background-size: 100% auto;
+        background-size: auto 100%;
         background-position: center top;
     }
     
