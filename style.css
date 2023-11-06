@@ -201,6 +201,7 @@
         width: 100%;
         height: 65%;
         overflow: scroll;
+        overflow-y: hidden;
         direction: ltr;
     }
     
@@ -240,6 +241,7 @@
         margin-left: 10px;
         margin-top: 10px;
         margin-right: 10px;
+        overflow-y: auto;
     }
     
     
@@ -400,7 +402,7 @@
         background-position: center;
         margin-left: 3%;
         margin-right: 3%;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
     
     .form_left_bottom{
@@ -505,6 +507,7 @@
         width: 100%;
         height: 60%;
         overflow: scroll;
+        overflow-y: hidden;
         direction: ltr;
     }
     
@@ -544,6 +547,7 @@
         margin-left: 10px;
         margin-top: 10px;
         margin-right: 10px;
+        overflow-y: auto;
     }
     
     
@@ -680,10 +684,10 @@
         display: flex;
         flex-direction: column;
     }
-    
+
     .form_right{
-        background-image: url("images/form_right.jpg");
-        background-size: 95% auto;
+        background-image: url("svg_smarphone/from_bottom.svg");
+        background-size: 90% auto;
         background-repeat: no-repeat;
         background-position: center;
         width: 50%;
@@ -692,14 +696,43 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    @media screen and (min-width: 1500px) {
+        .form_right{
+            background-image: url("svg_smarphone/from_bottom.svg");
+            background-size: auto 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
     
     .form_left_top{
-        background-image: url("images/form_left.jpg");
-        background-size: 100% auto;
+        background-image: url("svg_smarphone/form_top.svg");
+        background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: center;
         height: 40%;
-        margin: 5%;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1250px){
+        .form_left_top{
+            background-image: url("svg_smarphone/form_top.svg");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 40%;
+            margin-bottom: 1%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
     
     .form_left_bottom{
@@ -836,6 +869,7 @@
         margin-left: 10px;
         margin-top: 10px;
         margin-right: 10px;
+        overflow-y: auto;
     }
                                                                 /* INFORMATION */
     
