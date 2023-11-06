@@ -710,7 +710,7 @@
 
     .form_right{
         /*background-image: url("svg_smarphone/from_bottom.svg");*/
-        background-image: url("images/form_right.jpg");
+        background-image: url("images/form_right_f4fbf4.png");
         background-size: 90% auto;
         background-repeat: no-repeat;
         background-position: center;
@@ -724,7 +724,7 @@
     @media screen and (min-width: 1500px) {
         .form_right{
             /*background-image: url("svg_smarphone/from_bottom.svg");*/
-            background-image: url("images/form_right.jpg");
+            background-image: url("images/form_right_f4fbf4.png");
             background-size: 90% auto;
             background-repeat: no-repeat;
             background-position: center;
@@ -738,7 +738,7 @@
     
     .form_left_top{
         /*background-image: url("svg_smarphone/form_top.svg");*/
-        background-image: url("images/form_left.jpg");
+        background-image: url("images/form_left_f4fbf4.png");
         background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -751,7 +751,7 @@
     @media screen and (min-width: 900px) and (max-width: 1250px){
         .form_left_top{
             /*background-image: url("svg_smarphone/form_top.svg");*/
-            background-image: url("images/form_left.jpg");
+            background-image: url("images/form_left_f4fbf4.png");
             background-size: 100% auto;
             background-repeat: no-repeat;
             background-position: center;
